@@ -1,0 +1,11 @@
+main{
+    width:fit-content;
+    margin: auto;
+}
+.newpage{
+    display: block;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}

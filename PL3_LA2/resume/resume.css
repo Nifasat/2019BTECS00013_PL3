@@ -1,0 +1,62 @@
+body{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h3{
+    color: blue;    
+    border-bottom: 2px solid blue;
+}
+.introduction{
+    background-color: skyblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.MyImage{
+    order: 2;
+    width: 100px;
+    height: 100px;
+}
+.myIntroduction{
+    order: 1;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.percentage{
+    display: inline-block;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.heading{
+    margin: 5px;
+    padding-left: 5px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.leftSide{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+.rightSide{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+#codeforces{
+    color: rgb(0, 181, 253);
+    font-weight: bold;
+    text-decoration: none;
+}
+#codechef{
+    color:rgb(104, 66, 115);
+    font-weight: bold;
+    text-decoration: none;
+}
