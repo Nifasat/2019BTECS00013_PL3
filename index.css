@@ -1,0 +1,10 @@
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    width: fit-content;
+    margin: auto;
+}
+td,th{
+    padding: 2em;
+}
